@@ -83,7 +83,9 @@ namespace SevenZipExtractor
             {SevenZipFormat.Ntfs, new Guid("23170f69-40c1-278a-1000-000110D90000")},
             {SevenZipFormat.Fat, new Guid("23170f69-40c1-278a-1000-000110DA0000")},
             {SevenZipFormat.Mbr, new Guid("23170f69-40c1-278a-1000-000110DB0000")},
-            {SevenZipFormat.MachO, new Guid("23170f69-40c1-278a-1000-000110DF0000")}
+            {SevenZipFormat.MachO, new Guid("23170f69-40c1-278a-1000-000110DF0000")},
+            {SevenZipFormat.Ext, new Guid("23170f69-40c1-278a-1000-000110C70000")},
+
         };
 
         internal static Dictionary<SevenZipFormat, byte[]> FileSignatures = new Dictionary<SevenZipFormat, byte[]>

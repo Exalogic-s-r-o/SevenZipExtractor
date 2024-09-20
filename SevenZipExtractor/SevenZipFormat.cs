@@ -280,6 +280,12 @@ namespace SevenZipExtractor
         /// Mach-O file format.
         /// </summary>
         /// <remarks><a href="https://en.wikipedia.org/wiki/Mach-O">Wikipedia information</a></remarks>
-        MachO
+        MachO,
+
+        /// <summary>
+        /// EXT linux file system format.
+        /// </summary>
+        /// <remarks><a href="https://en.wikipedia.org/wiki/File_Allocation_Table">Wikipedia information</a></remarks>
+        Ext
     }
 }
