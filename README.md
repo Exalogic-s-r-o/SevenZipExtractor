@@ -130,6 +130,9 @@ using (ArchiveFile archiveFile = new ArchiveFile(response.GetResponseStream())
 
 
 ## Changelog
+1.0.18 / 2024.09.20
+- Add SevenZipFormat.Ext linux filesystem.
+
 1.0.17 / 2022.04.08
 - #54 4Gb+ archives fixed! 🎉 (Thanks [Pyroluk](https://github.com/Pyroluk))
 
